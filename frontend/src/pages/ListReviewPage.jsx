@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getAllReviews, updateReview, deleteReview } from "../services/reviewApi";
-import { getAllBooks } from "../services/bookAPI";
+import { getAllBooks } from "../services/bookApi";
 import { toast } from "react-toastify";
 import ModalEditReview from "../components/ModalEditReview";
 

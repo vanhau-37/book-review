@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAllBooks, updateBook, deleteBook } from "../services/bookAPI";
+import { getAllBooks, updateBook, deleteBook } from "../services/bookApi";
 import { toast } from "react-toastify";
 import ModalEditBook from "../components/ModalEditBook";
 

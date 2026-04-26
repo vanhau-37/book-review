@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAllBooks } from "../services/bookAPI";
+import { getAllBooks } from "../services/bookApi";
 
 function ModalEditReview({ show, review, onClose, onSubmit, apiErrors }) {
     const [form, setForm] = useState({

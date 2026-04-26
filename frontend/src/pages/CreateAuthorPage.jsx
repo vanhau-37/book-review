@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createAuthor } from "../services/authorAPI";
+import { createAuthor } from "../services/authorApi";
 import {toast} from 'react-toastify'
 
 function CreateAuthorPage() {

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAllAuthors, updateAuthor, deleteAuthor } from "../services/authorAPI";
+import { getAllAuthors, updateAuthor, deleteAuthor } from "../services/authorApi";
 import { toast } from "react-toastify";
 import ModalEditAuthor from "../components/ModalEditAuthor";
 

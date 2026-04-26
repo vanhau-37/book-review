@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { createBook } from "../services/bookAPI";
-import { getAllAuthors } from "../services/authorAPI";
+import { createBook } from "../services/bookApi";
+import { getAllAuthors } from "../services/authorApi";
 import { toast } from "react-toastify";
 
 function CreateBookPage() {
